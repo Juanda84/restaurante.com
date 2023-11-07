@@ -1,0 +1,94 @@
+/* Estilos para la barra de menú */
+nav {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-image: url('imagenes/header-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+header p {
+    font-size: 18px;
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 18px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label, input {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #ff6600;
+}
